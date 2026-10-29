@@ -1,0 +1,80 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0a0b09">
+<meta name="description" content="Vaibhav Chandwalker — developer exploring AI, IoT, cybersecurity and the web.">
+<title>Vaibhav Chandwalker | Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0b09;--panel:#12140f;--line:#303329;--text:#f0f0e9;--muted:#a1a496;--lime:#c8fa69}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Manrope,Arial,sans-serif}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(1080px,90%);margin:auto}
+header{padding:22px 5%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);position:sticky;top:0;background:#0a0b09ed;z-index:5}
+.logo{font-size:25px;font-weight:800;letter-spacing:-2px}.logo span,.lime{color:var(--lime)}
+nav{display:flex;gap:20px;font:11px 'DM Mono',monospace;color:var(--muted)}
+nav a:hover{color:var(--lime)}
+.hero{min-height:80vh;display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center;padding-top:65px;padding-bottom:65px}
+.eyebrow,.label{font:10px 'DM Mono',monospace;letter-spacing:2px;color:var(--lime)}
+h1{font-size:clamp(55px,8vw,95px);line-height:.97;letter-spacing:-7px;margin:25px 0}
+.outline{color:transparent;-webkit-text-stroke:1px #f0f0e9}
+.intro{max-width:470px;color:var(--muted);font-size:14px;line-height:1.9}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-block;padding:14px 18px;border:1px solid var(--line);font:11px 'DM Mono',monospace}
+.btn.primary{background:var(--lime);color:#14170e;border-color:var(--lime)}
+.art{height:350px;display:grid;place-items:center;position:relative}
+.orbit{position:absolute;width:280px;height:280px;border:1px solid #455334;border-radius:50%;animation:spin 18s linear infinite}
+.orbit.two{width:220px;height:320px;transform:rotate(45deg);border-color:#303d2a;animation-direction:reverse}
+.core{width:170px;height:200px;background:radial-gradient(#29391a,#10120e);border:1px solid #566d3b;display:grid;place-items:center;position:relative}
+.initials{width:95px;height:95px;border-radius:50%;border:1px solid var(--lime);display:grid;place-items:center;color:var(--lime);font-size:30px;font-weight:800}
+.float{position:absolute;background:var(--panel);border:1px solid #404633;padding:12px;font:10px 'DM Mono',monospace;animation:bob 3s ease-in-out infinite}
+.f1{top:35px;left:0}.f2{right:0;top:130px}.f3{bottom:25px;left:10px}
+@keyframes spin{to{transform:rotate(360deg)}}@keyframes bob{50%{translate:0 -8px}}
+.ticker{padding:18px 0;text-align:center;border-block:1px solid var(--line);font:10px 'DM Mono',monospace;letter-spacing:2px;color:var(--muted)}
+section.content{padding:90px 0}
+h2{font-size:clamp(38px,6vw,65px);line-height:1.05;letter-spacing:-4px;margin:18px 0 35px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.card{background:var(--panel);border:1px solid var(--line);padding:25px;transition:.25s}
+.card:hover{transform:translateY(-5px);border-color:var(--lime)}
+.num{font:11px 'DM Mono',monospace;color:var(--lime)}
+.card h3{font-size:24px;letter-spacing:-1px;margin:17px 0 10px}
+.card p,.about p{font-size:12px;color:var(--muted);line-height:1.9}
+.tags{font:9px 'DM Mono',monospace;color:var(--lime);line-height:2.5}
+.about{background:var(--lime);color:#15180e;padding:75px 0}
+.about .label{color:#44552b}.about p{color:#37402a;font-size:14px}
+.skills{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.skill{padding:20px;border:1px solid var(--line);font-size:12px;line-height:2;color:var(--muted)}
+.skill b{color:var(--text);display:block;margin-bottom:10px}
+.contact{text-align:center;background:#12140f;padding:90px 0}
+.contact p{max-width:470px;margin:20px auto 30px;color:var(--muted);font-size:13px;line-height:1.9}
+footer{padding:25px 5%;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;color:#85897b;font:9px 'DM Mono',monospace}
+@media(max-width:700px){nav{gap:10px}nav a:nth-child(2){display:none}.hero{grid-template-columns:1fr;padding-top:55px}.art{height:300px}h1{letter-spacing:-4px}.grid{grid-template-columns:1fr}.skills{grid-template-columns:repeat(2,1fr)}section.content{padding:65px 0}h2{letter-spacing:-2px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header><a class="logo" href="#">vc<span>.</span></a><nav><a href="#work">WORK ↘</a><a href="#about">ABOUT ↘</a><a href="#skills">SKILLS ↘</a><a href="#contact">CONTACT ↘</a></nav></header>
+<main>
+<div class="wrap hero">
+<div><div class="eyebrow">✳ DEVELOPER · ENGINEERING STUDENT</div><h1>I turn ideas<br>into <span class="outline">real</span><br><span class="lime">things.</span></h1><p class="intro">Hey, I'm <b>Vaibhav Chandwalker</b> — a Computer Science & Engineering student exploring the space where intelligent software meets the physical world.</p><div class="buttons"><a class="btn primary" href="#work">EXPLORE MY WORK ↘</a><a class="btn" href="https://github.com/Vaibhavchandwalker" target="_blank">GITHUB ↗</a></div></div>
+<div class="art"><div class="orbit"></div><div class="orbit two"></div><div class="core"><div class="initials">VC↗</div></div><div class="float f1">✳ AI / ML</div><div class="float f2">◉ IoT SYSTEMS</div><div class="float f3">⬡ CYBERSECURITY</div></div>
+</div>
+<div class="ticker">BUILD WITH PURPOSE　✳　AI THAT HELPS　✳　HARDWARE MEETS SOFTWARE　✳　STAY CURIOUS</div>
+<section class="content wrap" id="work"><div class="label">01 / SELECTED WORK</div><h2>Ideas made<br><span class="outline">tangible.</span></h2><div class="grid">
+<article class="card"><span class="num">/01 — AI & COMPUTER VISION</span><h3>CropGuard AI</h3><p>A plant-health detection concept for grape and tomato crops, exploring image classification, disease severity estimation, and practical recommendations.</p><div class="tags">PYTHON · CNN · OPENCV · FASTAPI</div></article>
+<article class="card"><span class="num">/02 — IoT & EMBEDDED</span><h3>EnviroSense</h3><p>An ESP32-based smart agriculture monitoring concept connecting environmental and soil-moisture sensors for better crop insights.</p><div class="tags">ESP32 · MQTT · REACT · SUPABASE</div></article>
+<article class="card"><span class="num">/03 — PREDICTIVE MAINTENANCE</span><h3>Elspa HEV DR-1</h3><p>An AI-based predictive-maintenance project concept exploring vehicle-system health, failure risk, and remaining useful life.</p><div class="tags">LSTM · RANDOM FOREST · XGBOOST</div></article>
+<article class="card"><span class="num">/04 — WEB & HEALTH TECH</span><h3>CycleCare</h3><p>A cycle-tracking and analytics web application concept with predictions, symptom logging, visual insights, and educational resources.</p><div class="tags">REACT · NODE.JS · MONGODB · CHART.JS</div></article>
+<article class="card"><span class="num">/05 — IoT & SAFETY</span><h3>Smart Mining Helmet</h3><p>A connected helmet prototype exploring gas sensing and environmental hazard awareness using an ESP32 and sensors.</p><div class="tags">ESP32 · MQ-2 · EMBEDDED SYSTEMS</div></article>
+<article class="card"><span class="num">/06 — DISTRIBUTED SYSTEMS</span><h3>FileSync</h3><p>A file-synchronization coursework project concept using multiple clients, metadata tracking, and SHA-256 change detection.</p><div class="tags">PYTHON · SHA-256 · CLIENT / SERVER</div></article>
+</div><p class="intro">Project descriptions include concepts, prototypes, and coursework at different stages. Add working demos and repository links as they become available.</p></section>
+<section class="about" id="about"><div class="wrap"><div class="label">02 / ABOUT ME</div><h2>Curious by default.<br>Builder by choice.</h2><p>I'm studying Computer Science & Engineering at Vishwakarma Institute of Technology, Pune, with interests in IoT, cybersecurity, and connected intelligent systems.</p><p>I enjoy prototyping with sensors, exploring machine learning, building web experiences, and learning how to make systems more reliable and secure.</p><p><b>Expected graduation: 2028.</b> I believe in learning by building, documenting honestly, and improving with every iteration.</p></div></section>
+<section class="content wrap" id="skills"><div class="label">03 / TOOLKIT</div><h2>Tools for the<br><span class="outline">next build.</span></h2><div class="skills"><div class="skill"><b>WEB & SOFTWARE</b>React · JavaScript<br>HTML · CSS · Tailwind<br>Node.js · Python · Java</div><div class="skill"><b>AI & ANALYTICS</b>Machine Learning<br>CNN · LSTM · OpenCV<br>Data analytics · RAG</div><div class="skill"><b>IoT & EMBEDDED</b>ESP32 · Arduino<br>MQTT · Sensors<br>Supabase · MongoDB</div><div class="skill"><b>SECURITY & NETWORKS</b>Networking basics<br>Wireshark · Nmap<br>Linux · GPG · Secure coding</div></div></section>
+<section class="contact" id="contact"><div class="wrap"><div class="label">04 / YOUR TURN</div><h2>Have a good<br>problem? <span class="lime">Let's build.</span></h2><p>Always happy to connect with people exploring useful AI, connected devices, thoughtful software, and secure systems.</p><a class="btn primary" href="https://linkedin.com/in/vaibhav-chandwalker-0544a5345/" target="_blank">CONNECT ON LINKEDIN ↗</a><div class="buttons" style="justify-content:center"><a class="btn" href="https://github.com/Vaibhavchandwalker" target="_blank">GITHUB ↗</a></div></div></section>
+</main>
+<footer><span>© 2026 VAIBHAV CHANDWALKER</span><span>MADE WITH CURIOSITY ✳</span><span>ONE WHO CODES</span></footer>
+</body>
+</html>
